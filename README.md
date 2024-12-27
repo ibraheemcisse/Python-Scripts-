@@ -1,39 +1,51 @@
-# Python3 System Health Check
+# System Health Check Scripts
 
-This repository contains Python3 scripts to demonstrate basic Python programming concepts and system health checks. It is designed to familiarize users with Python scripts, system utilities, and package management.
+This repository contains Python scripts for monitoring system health. The current script checks disk and CPU usage, with more scripts to be added in the future.
 
-## Table of Contents
+## Scripts Overview
 
-1. [Introduction](#introduction)
-2. [Setup Instructions](#setup-instructions)
-3. [Scripts](#scripts)
-4. [Contributions](#contributions)
-5. [License](#license)
+### 1. `system_health_check.py`
+- **Description**: A script to check the disk usage and CPU usage of the system. If either exceeds predefined thresholds, an error is displayed.
+- **Features**:
+  - Checks the free space of the disk (default threshold: 20%).
+  - Monitors CPU usage (default threshold: 75%).
+  - Prints "ERROR!" if any thresholds are breached, otherwise "Everything is OK!".
 
----
+## Adding New Scripts
 
-## Introduction
+To add a new script, follow these steps:
 
-This project explores Python's ability to interact with the system to perform tasks such as:
-- Displaying messages.
-- Checking CPU and disk usage.
-- Monitoring system health with user-defined thresholds.
+1. Create a new Python script in the `scripts/` directory.
+2. Update the **Scripts Overview** section above to include the new script’s name, description, and features.
+3. Make sure your script adheres to the code style and structure guidelines of the repository.
 
-The repository is structured to progressively build Python skills, from simple scripts to functional utilities.
+## Running the Scripts
 
----
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git# System Health Check Scripts
 
-## Setup Instructions
+This repository contains Python scripts for monitoring system health. The current script checks disk and CPU usage, with more scripts to be added in the future.
 
-### Prerequisites
-- Python 3.12+
-- Basic knowledge of Python
-- Ubuntu or similar Linux-based operating system
+## Scripts Overview
 
-### Install Dependencies
+### 1. `system_health_check.py`
+- **Description**: A script to check the disk usage and CPU usage of the system. If either exceeds predefined thresholds, an error is displayed.
+- **Features**:
+  - Checks the free space of the disk (default threshold: 20%).
+  - Monitors CPU usage (default threshold: 75%).
+  - Prints "ERROR!" if any thresholds are breached, otherwise "Everything is OK!".
 
-Run the following commands:
-```bash
-sudo apt update
-sudo apt install python3-pip -y
-pip3 install -r requirements.txt
+## Adding New Scripts
+
+To add a new script, follow these steps:
+
+1. Create a new Python script in the `scripts/` directory.
+2. Update the **Scripts Overview** section above to include the new script’s name, description, and features.
+3. Make sure your script adheres to the code style and structure guidelines of the repository.
+
+## Running the Scripts
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
